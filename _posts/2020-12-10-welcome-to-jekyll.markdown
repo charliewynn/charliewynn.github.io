@@ -14,7 +14,9 @@ Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit number
 
 Jekyll also offers powerful support for code snippets:
 
-testing change
+testing change/_posts/photo.png
+
+![image test](/_posts/photo.png)
 
 {% highlight ruby %}
 def print_hi(name)
