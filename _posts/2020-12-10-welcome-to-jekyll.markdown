@@ -16,7 +16,7 @@ Jekyll also offers powerful support for code snippets:
 
 testing change/_posts/photo.png
 
-![image test](../_assets/photo.jpeg)
+![image test](../assets/cube.png)
 
 
 {% highlight ruby %}
