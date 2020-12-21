@@ -22,6 +22,8 @@ testing change/_posts/photo.png
 ![image test](_posts/photo.png)
 ![image test](./_posts/photo.png)
 
+![hhhh](../assets/cube.png)
+
 
 {% highlight ruby %}
 def print_hi(name)
