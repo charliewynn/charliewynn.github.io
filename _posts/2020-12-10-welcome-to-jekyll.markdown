@@ -18,6 +18,11 @@ testing change/_posts/photo.png
 
 ![image test](/_posts/photo.png)
 
+![image test](photo.png)
+![image test](_posts/photo.png)
+![image test](./_posts/photo.png)
+
+
 {% highlight ruby %}
 def print_hi(name)
   puts "Hi, #{name}"
