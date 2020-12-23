@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Welder wire feeder fix"
-date:   2020-12-23 20:33:16 -0600
+date:   2020-12-3 20:33:16 -0600
 categories: welding soldering fix
 ---
 
