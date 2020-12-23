@@ -21,7 +21,8 @@ The issue is the connection between the cathode and the negative battery termina
 
 There is a weak point where the circuit board contacts the flashlight housing.
 
-The three soldering points on the board ![led board solder points](../assets/uv_light/led_soldering.png)
+The three soldering points on the board  
+![led board solder points](../assets/uv_light/led_soldering.png)  
 Ignore the green wire. The solder points with arrows are meant to just touch the silver of the ring here.
 ![housing connection ring](../assets/uv_light/ring.png)
 
