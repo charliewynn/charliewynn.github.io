@@ -5,7 +5,7 @@ date: 2021-11-12 10:33:16 -0600
 categories: javascript html5 canvas game
 ---
 
-[![Image of gravity game gameplay. Click to navigate to game.](../assets/hamsterflight/gameplay.png)](https://cwynn.com/hamsterflight)
+[![Image of Hamster Flight gameplay. Click to navigate to game.](../assets/hamsterflight/gameplay.png)](https://cwynn.com/hamsterflight)
 
 [Play Here](https://cwynn.com/hamsterflight)
 
