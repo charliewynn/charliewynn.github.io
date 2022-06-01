@@ -3,14 +3,16 @@ layout: default
 ---
 
 <div id="posts">
-  {% for post in site.tags.featured %}
+  {% for post in site.tags.featured %} {% if post.content contains
+  site.excerpt_separator %} {% assign hasReadMore = true %} {% assign
+  postEllipis = '..' %} {% endif %}
   <div class="post">
     <a href="{{ post.url }}"
       ><p class="title">{{ post.title }}</p>
       <img src="{{post.image}}" />
     </a>
     {{ post.excerpt | markdownify | strip_html | remove:'(Play Here)' |
-    truncatewords: 50 }} {% if post.content contains site.excerpt_separator %}
+    truncatewords: 50 | strip | append: postEllipis}} {% if hasReadMore %}
 
     <a href="{{ post.url }}">
       <p class="title">(read more...)</p>

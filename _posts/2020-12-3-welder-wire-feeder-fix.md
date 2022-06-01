@@ -3,6 +3,8 @@ layout: post
 title: "Welder wire feeder fix"
 date: 2020-12-3 20:33:16 -0600
 categories: welding soldering fix
+tags: [featured]
+image: ../assets/welder/photo-1.jpeg
 ---
 
 My cheap Craigslist welder broke. ![Craigslist Welder](../assets/welder/photo-1.jpeg)
@@ -12,6 +14,8 @@ Specifically the wire feed circuit blew.
 
 The fuse blew as well as one of the traces on the board. Here I replaced one of the traces but as I replaced traces others blew.
 ![Replaced Trace](../assets/welder/photo-8.jpeg)
+
+<!--more-->
 
 Unfortunately the welder is too cheap to be worth spending time and money to fix it properly. The welder I was about to buy as a replacement is $500 ([link](https://www.amazon.com/dp/B009X43F38/ref=pe_825000_114212990_TE_FOCE_n_id)). So it _is_ worth the time to try to get a stop-gap fix is place.
 

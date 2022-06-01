@@ -1,0 +1,22 @@
+---
+layout: page
+title: Maze Game
+date: 2022-06-1 12:13:16 -0600
+categories:
+tags: [featured, games]
+image: ../assets/maze-game/gameplay.png
+---
+
+<a href="https://cwynn.com/maze"><img width="50%" src="../assets/maze-game/gameplay.png" /></a>
+
+I believe I originally made this game around 2014. It features a character in a maze. You can move in the cardinal directions.
+
+Be sure to try the level editor!
+
+<!--more-->
+
+My inspiration was the movement and basic overworld puzzles in the older Pokemon games (for instance silph co in red/blue).
+
+It has bolders, ice, direction-changing ice (you take a 90° turn while sliding), and buttons which unlock barriers.
+
+[Play Here](https://cwynn.com/maze)
