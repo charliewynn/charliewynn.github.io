@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 
-#games {
+#posts {
   display: grid;
   gap: 2em;
   grid-template-columns: repeat(3, 1fr);
@@ -11,7 +11,7 @@
   @include media-query($on-palm) {
     grid-template-columns: repeat(2, 1fr);
   }
-  .game {
+  .post {
     display: flex;
     flex-direction: column;
     background: lighten(#828282, 40%);

@@ -34,7 +34,10 @@ plugins:
 
 include: [_pages]
 excerpt_separator: <!--more-->
+show_excerpts: false
+
 header_pages:
+  - _pages/index.markdown
   - _pages/games.markdown
   - _pages/about.markdown
 

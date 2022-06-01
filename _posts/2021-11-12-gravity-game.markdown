@@ -5,7 +5,6 @@ date: 2021-11-12 10:33:16 -0600
 categories: javascript html5 canvas game
 tags: [games]
 image: ../assets/gravity/gameplay.png
-destination: https://cwynn.com/gravity
 ---
 
 [![Image of gravity game gameplay. Click to navigate to game.](../assets/gravity/gameplay.png)](https://cwynn.com/gravity)
