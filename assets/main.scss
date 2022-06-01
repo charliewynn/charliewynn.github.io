@@ -14,8 +14,12 @@
   .game {
     display: flex;
     flex-direction: column;
-    a:first-child {
-      align-self: center;
+    background: lighten(#828282, 40%);
+    padding: 1em;
+    border-radius: 0.25em;
+
+    .title {
+      text-align: center;
     }
   }
 }
