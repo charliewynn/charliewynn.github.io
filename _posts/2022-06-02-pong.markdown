@@ -4,6 +4,7 @@ title: Pong
 date: 2022-06-02 9:23:16 -0500
 categories: javascript html5 canvas game
 tags: [games, featured]
+permalink: pong-about
 image: ../assets/pong/gameplay.png
 ---
 
