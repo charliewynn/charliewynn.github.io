@@ -17,25 +17,36 @@ permalink: /all/
 
 {%- if posts.size > 0 -%}
 {%- if page.list_title -%}
-
 <h2 class="post-list-heading">{{ page.list_title }}</h2>
 {%- endif -%}
-<ul class="post-list">
-{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-{%- for post in posts -%}
-<li>
-<span class="post-meta">{{ post.date | date: date_format }}</span>
-<h3>
-<a class="post-link" href="{{ post.url | relative_url }}">
-{{ post.title | escape }}
-</a>
-</h3>
-{%- if site.show_excerpts -%}
-{{ post.excerpt }}
-{%- endif -%}
-</li>
-{%- endfor -%}
-</ul>
+
+    <div id="posts">
+    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+
+    {%- for post in posts -%}
+        {%- if post.content contains site.excerpt_separator %}
+        {% assign hasReadMore = true -%}
+        {% assign postEllipis = '..' %} {%- endif -%}
+        <div class="post">
+            <a href="{{ post.url }}">
+                <p class="title">{{ post.title }}</p>
+                <img src="{{post.image}}" />
+            </a>
+            {{ post.excerpt | markdownify | strip_html | remove:'(Play Here)' |
+            truncatewords: 50 | strip | append: postEllipis }}
+
+            {%- if hasReadMore -%}
+                <a href="{{ post.url }}">
+                    <p class="title">(read more...)</p>
+                </a>
+            {%- endif -%}
+
+            <div class="post_date">{{ post.date | date: date_format }}</div>
+        </div>
+
+    {%- endfor -%}
+
+</div>
 
     {% if site.paginate %}
       <div class="pager">

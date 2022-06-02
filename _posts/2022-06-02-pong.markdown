@@ -1,0 +1,18 @@
+---
+layout: page
+title: Pong
+date: 2022-06-02 9:23:16 -0500
+categories: javascript html5 canvas game
+tags: [games, featured]
+image: ../assets/pong/gameplay.png
+---
+
+[![Image of pong gameplay. Click to navigate to game.](../assets/pong/gameplay.png)](https://cwynn.com/pong)
+
+I wrote a simple pong game in javascript. I sent a link to my friend. He was quick to make fun of the very bland white-on-black pong game I made. He told me it looked like the "before" example in a video he shared on "juicing" your game.
+
+<!--more-->
+
+[Juice it or lose it - youtube](https://www.youtube.com/watch?v=Fy0aCDmgnxg)
+
+([Play Here](https://cwynn.com/pong))
