@@ -13,9 +13,11 @@ This is how I came up with a quicker way to swap accessories
 
 <!--more-->
 
-The disc golf retriever I own ([link](https://www.amazon.com/gp/product/B08XNZQ8MX){:target="\_blank"}) comes with a few accessories. Two hooks and a "mailslot".
+[Any Amazon links below may be affiliate links]
 
-[![Rogue Iron Disc Golf Retriever](../assets/quickswitch/rogue-iron_retriever.jpg)](https://www.amazon.com/gp/product/B08XNZQ8MX){:target="\_blank"}
+The disc golf retriever I own ([link](https://www.amazon.com/gp/product/B08XNZQ8MX?ie=UTF8&psc=1&linkCode=ll1&tag=charliewynn-20&linkId=b57197751198ea705f1d78511bee22dc&language=en_US&ref_=as_li_ss_tl){:target="\_blank"}) comes with a few accessories. Two hooks and a "mailslot".
+
+[![Rogue Iron Disc Golf Retriever](../assets/quickswitch/rogue-iron_retriever.jpg)](https://www.amazon.com/gp/product/B08XNZQ8MX?ie=UTF8&psc=1&linkCode=ll1&tag=charliewynn-20&linkId=b57197751198ea705f1d78511bee22dc&language=en_US&ref_=as_li_ss_tl){:target="\_blank"}
 
 While playing a few weeks ago I noticed someone pulling their disc out of the water with a "Max Disctance" suction cup ball ([link](https://maxdisctance.com/){:target="\_blank"}). I bought one and was instantly impressed.
 
@@ -23,15 +25,15 @@ While playing a few weeks ago I noticed someone pulling their disc out of the wa
 
 ---
 
-After some brainstorming I decided that a locking hex shank bit holder would meet my needs - I ordered a cheap set on Amazon ([link](https://www.amazon.com/gp/product/B097R4PZQK){:target="\_blank"})
+After some brainstorming I decided that a locking hex shank bit holder would meet my needs - I ordered a cheap set on Amazon ([link](https://www.amazon.com/dp/B097R4PZQK?psc=1&linkCode=ll1&tag=charliewynn-20&linkId=428bacaf360cec18fb06eae554c81d1e&language=en_US&ref_=as_li_ss_tl){:target="\_blank"})
 
-[![Hex Shaft Extension](../assets/quickswitch/unmodified_hex-drive_extension.jpg)](https://www.amazon.com/gp/product/B097R4PZQK){:target="\_blank"}
+[![Hex Shaft Extension](../assets/quickswitch/unmodified_hex-drive_extension.jpg)](https://www.amazon.com/dp/B097R4PZQK?psc=1&linkCode=ll1&tag=charliewynn-20&linkId=428bacaf360cec18fb06eae554c81d1e&language=en_US&ref_=as_li_ss_tl){:target="\_blank"}
 
 With some effort I was able to remove the shank. I tried a few methods but it was hard to not marr the surface. If this initial prototype works well I want to buy a few different types of hex shank extensions and see which one is the easiest to modify. ![Hex Shaft Extension Disassembled](../assets/quickswitch/split_hex-drive_extension.jpg)
 
-I bought a cheap tap and die set for 5mm x 0.8mm ([link](https://www.amazon.com/gp/product/B098K2WRH6){:target="\_blank"}). This size matches the retriever and accessories' threading. I drilled and tapped a hole in the shank.
+I bought a cheap tap and die set for 5mm x 0.8mm ([link](https://www.amazon.com/dp/B098K2WRH6?psc=1&linkCode=ll1&tag=charliewynn-20&linkId=c08e784bf993940915464cd83c8486f2&language=en_US&ref_=as_li_ss_tl){:target="\_blank"}). This size matches the retriever and accessories' threading. I drilled and tapped a hole in the shank.
 
-[![Drilled and Tapped Hex Drive Extension](../assets/quickswitch/tapped_hex-drive.jpg)](https://www.amazon.com/gp/product/B098K2WRH6){:target="\_blank"}
+[![Drilled and Tapped Hex Drive Extension](../assets/quickswitch/tapped_hex-drive.jpg)](https://www.amazon.com/dp/B098K2WRH6?psc=1&linkCode=ll1&tag=charliewynn-20&linkId=c08e784bf993940915464cd83c8486f2&language=en_US&ref_=as_li_ss_tl){:target="\_blank"}
 
 I only made two threaded hex shank adapters for this test. Now I can attach any two accessories to the hex shanks.
 
