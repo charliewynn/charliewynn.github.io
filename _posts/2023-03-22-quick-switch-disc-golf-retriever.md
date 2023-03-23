@@ -4,8 +4,10 @@ title: "Quick Switch Disc Golf Retriever"
 date: 2023-3-22 8:23:16 -0600
 categories: discgolf fix
 tags: [featured, tinkering]
-image: ../assets/quickswitch/maxdisctance_attached.jpg
+image: ../assets/quickswitch/v0_accessories_with_retriever.jpg
 ---
+
+![Quick Switch Disc Golf Retriever](../assets/quickswitch/v0_accessories_with_retriever.jpg)
 
 I play disc golf - and sometime lose discs in the water or up in trees. I've owned a few disc retrievers and recently bought a "Max Disctance" suction cup ball. It works really well in the water, but isn't really designed for everything. The problem is that switching between the hook type retriever and the Max Disctance is a little tedious.
 
@@ -50,3 +52,7 @@ It's not elegant but it works!
 <iframe width="100%" height="420" src="https://www.youtube.com/embed/JtFd0csIyUk" title="Quick Switch disc golf retriever attachment" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 I had some concerns about the weight of the quick switch adapters and did a little investigating into that on this related page: [link](/quick-switch-disc-golf-retriever-weight)
+
+Since the accessories have hex bit shanks they fit nicely on a keychain meant for holding spare hex shanks
+
+![Accessories on keychain](../assets/quickswitch/v0_accessories_keychain.jpg)
