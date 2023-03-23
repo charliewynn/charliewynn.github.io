@@ -3,7 +3,7 @@ layout: post
 title: "Welder wire feeder fix"
 date: 2020-12-3 20:33:16 -0600
 categories: welding soldering fix
-tags: [featured]
+tags: [featured, tinkering]
 image: ../assets/welder/photo-1.jpeg
 ---
 

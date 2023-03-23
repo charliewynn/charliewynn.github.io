@@ -38,6 +38,7 @@ show_excerpts: false
 
 header_pages:
   - _pages/games.markdown
+  - _pages/tinkering.markdown
   - _pages/all.markdown
   - _pages/about.markdown
 

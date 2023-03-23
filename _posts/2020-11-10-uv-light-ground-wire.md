@@ -3,7 +3,7 @@ layout: post
 title: "UV light ground wire"
 date: 2020-11-10 20:33:16 -0600
 categories: discgolf soldering fix
-tags: [featured]
+tags: [featured, tinkering]
 image: ../assets/uv_light/disassebled.png
 ---
 

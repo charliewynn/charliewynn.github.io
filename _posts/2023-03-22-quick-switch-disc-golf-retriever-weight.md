@@ -3,11 +3,11 @@ layout: post
 title: "Quick Switch Disc Golf Retriever Weight"
 date: 2023-3-23 8:23:16 -0600
 categories: discgolf fix
-tags: [featured]
+tags:
 image: ../assets/quickswitch/all_accessories.jpg
 ---
 
-I recently made a system for quickly switching my disc golf retreiver accessories [link](/quick-switch-disc-golf-retriever). My Rogue Iron retreiver seems strong and I've never had issues with it - but I have seen other retrievers break before. I wanted to run some numbers and see how much extra stress I may be putting on my retriever with my change.
+I recently made a system for quickly switching my disc golf retreiver accessories ([link](/quick-switch-disc-golf-retriever)). My Rogue Iron retreiver seems strong and I've never had issues with it - but I have seen other retrievers break before. I wanted to run some numbers and see how much extra stress I may be putting on my retriever with my change.
 
 <!--more-->
 
