@@ -15,8 +15,6 @@ This is how I came up with a quicker way to swap accessories
 
 <!--more-->
 
-[Any Amazon links below may be affiliate links]
-
 The disc golf retriever I own ([link](https://www.amazon.com/gp/product/B08XNZQ8MX?ie=UTF8&psc=1&linkCode=ll1&tag=charliewynn-20&linkId=b57197751198ea705f1d78511bee22dc&language=en_US&ref_=as_li_ss_tl){:target="\_blank"}) comes with a few accessories. Two hooks and a "mailslot".
 
 [![Rogue Iron Disc Golf Retriever](../assets/quickswitch/rogue-iron_retriever.jpg)](https://www.amazon.com/gp/product/B08XNZQ8MX?ie=UTF8&psc=1&linkCode=ll1&tag=charliewynn-20&linkId=b57197751198ea705f1d78511bee22dc&language=en_US&ref_=as_li_ss_tl){:target="\_blank"}
