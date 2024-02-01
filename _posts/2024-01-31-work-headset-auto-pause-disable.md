@@ -7,6 +7,7 @@ image: ../assets/workheadphones/pcb.jpg
 ---
 
 ![Opened Headset](../assets/workheadphones/headset.jpg)
+(don't worry, I cut that long resistor leg)
 
 My day-job provided a bluetooth headset. I like that it will connect to my work pc as well as my phone. So I can listen to music from my phone, and it will also pick up notifications from my pc. And auto switches to the PC for meetings.
 
