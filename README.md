@@ -7,3 +7,7 @@ Run `bundle install` to install dependencies
 bundle exec jekyll serve
 
 Push to master to update cwynn.com
+
+---
+
+bundle exec jekyll post "my new post"
