@@ -7,7 +7,6 @@ image: ../assets/workheadphones/pcb.jpg
 ---
 
 ![Opened Headset](../assets/workheadphones/headset.jpg)
-(don't worry, I cut that long resistor leg)
 
 My day-job provided a bluetooth headset. I like that it will connect to my work pc as well as my phone. So I can listen to music from my phone, and it will also pick up notifications from my pc. And auto switches to the PC for meetings.
 
@@ -16,6 +15,8 @@ My issue with it is that when you take the headphones off it will pause whatever
 I wanted to fix this.
 
 <!--more-->
+
+(don't worry, I cut that long resistor leg)
 
 It was a little tricky to figure out how to open the headset. But afterwards I was able to decide which side (left or right) controlled the auto-pause.
 
