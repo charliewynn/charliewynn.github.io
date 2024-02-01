@@ -26,3 +26,10 @@ Depending on my office layout I custom-make an ethernet cord for whichever lengt
 ![light back](../assets/homeofficebusylight/light_back.jpg)
 
 The translucent white plastic is the back panel of a TV my neighbor was throwing away.
+
+<hr>
+
+I added status lights to the switch box to help me remember to not leave it on all day :)
+
+![status light red](../assets/homeofficebusylight/switch_light_red.jpg)
+![status light green](../assets/homeofficebusylight/switch_light_green.jpg)
