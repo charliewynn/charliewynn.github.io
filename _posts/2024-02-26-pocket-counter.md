@@ -50,4 +50,6 @@ If I had multiple digits I could let the loop run as fast as it wants and just o
 
 I also considered trying to build an output buffer for the time and calculate which number in the buffer I should be displaying based on the current sub-second time. This would keep me from trying to do calculations then delay appropriately. But also seemed like a nightmare to debug if there were issues.
 
-I've run the timer for about half an hour and so far it seems to keep time accurately
+I've run the timer for about half an hour and so far it seems to keep time accurately.
+
+Since I keep track of time based on the millis() since boot and not just adding 1 every time I _think_ a second has passed it is able to accurately track the time even if it does miss finishing a cycle in time. Before I fixed a few bugs it would occasionally appear to skip a second when you watched the display when it was taking 1.05s to print the time, after 20 seconds you would miss one display cycle (although it would still stay accurate). With a few bug fixes I haven't noticed this happening anymore but I think it is okay if it does happen :\)
