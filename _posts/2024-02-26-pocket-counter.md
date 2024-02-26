@@ -40,3 +40,14 @@ When using counter mode I write the value to the flash memory so you can power o
 ![Bottom of Counter](../assets/pocket_counter/counter_bottom.jpg)
 
 They nicely connect to my phone with a short usb-c to usb-c. My phone powers the device but doesn't seem to otherwise "notice" they're connected.
+
+Overall it has been a fun little challenge for my soldering and some basic programming skills. Since I'm working with a one-digit display and needing to print the time accurately once per second there were a few hurdles to figure out.
+
+I try to predict how long I'll get to display the time (maybe 950ms?). Then I calculate the "flashes" I add when I show the same number twice (22 needs to look like "2 2" and not "222" or you won't know the difference between 2 and 22 and 222). The flashes are 50ms.
+For a days/hours/mins/secs separator I display a dash '-'. And need to add that to the calculation. Then I divide the number of chars from 950 and display each char the correct amount of time. At the end of the loop I calculate how long the loop has lasted and delay the appropriate amount of time to get to the next second.
+
+If I had multiple digits I could let the loop run as fast as it wants and just output the "current" count instead of trying to force a 1s loop like I am now.
+
+I also considered trying to build an output buffer for the time and calculate which number in the buffer I should be displaying based on the current sub-second time. This would keep me from trying to do calculations then delay appropriately. But also seemed like a nightmare to debug if there were issues.
+
+I've run the timer for about half an hour and so far it seems to keep time accurately
