@@ -5,24 +5,18 @@ permalink: /tinkering/
 ---
 
 <div id="posts">
-    {%- for post in site.tags.tinkering -%}
-        <div class="post">
-            <a href="{{ post.url }}"><p class="title">{{ post.title }}</p>
-                <img src="{{post.image}}" />
-            </a>
-
-            <div class="post-text">
-                {{ post.excerpt | markdownify | strip_html | remove:'(Play Here)' |
-                truncatewords: 50 | strip | append: postEllipis }}
-            </div>
-             {%- if
-    post.content contains site.excerpt_separator -%}
-
-    <a href="{{ post.url }}">
-      <p class="title">(read more...)</p>
+  {%- for post in site.tags.tinkering -%}
+  <article class="post-card">
+    <a href="{{ post.url | relative_url }}">
+      {%- if post.image -%}
+      <img src="{{ post.image }}" alt="{{ post.title | escape }}">
+      {%- endif -%}
+      <h3>{{ post.title | escape }}</h3>
     </a>
-    {%- endif -%}
-        </div>
-    {%- endfor -%}
-
+    <footer>
+      <small>{{ post.date | date: "%B %-d, %Y" }}</small>
+      <a href="{{ post.url | relative_url }}">Read more &rarr;</a>
+    </footer>
+  </article>
+  {%- endfor -%}
 </div>

@@ -1,39 +1,87 @@
 ---
 ---
 
-@import "{{ site.theme }}";
+@use 'syntax-highlighting';
+
+/* ── Post card grid ─────────────────────────────────────────── */
 
 #posts {
   display: grid;
-  gap: 2em;
   grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  padding: 0;
 
-  @include media-query($on-palm) {
+  @media (max-width: 768px) {
     grid-template-columns: repeat(2, 1fr);
   }
-  .post {
+
+  @media (max-width: 480px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.post-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--pico-border-color);
+  border-radius: var(--pico-border-radius);
+  padding: 0.75rem;
+  margin: 0;
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: calc(var(--pico-border-radius) - 2px);
+    margin-bottom: 0.5rem;
+  }
+
+  h3 {
+    margin: 0.25rem 0 0.5rem;
+    font-size: 0.95rem;
+  }
+
+  footer {
     display: flex;
-    flex-direction: column;
-    background: lighten(#828282, 40%);
-    padding: 1em;
-    padding-bottom: 0.75em;
-    border-radius: 0.25em;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    padding: 0;
+    margin: 0;
+    background: none;
 
-    .title {
-      text-align: center;
+    small {
+      color: var(--pico-muted-color);
     }
+  }
+}
 
-    .post-text {
-      padding-top: 0.5em;
-      text-indent: 15%;
+/* ── Post listing pages (tinkering, games, all) ─────────────── */
+
+ul.post-list {
+  list-style: none;
+  padding: 0;
+
+  li {
+    border-bottom: 1px solid var(--pico-border-color);
+    padding: 0.75rem 0;
+
+    &:last-child {
+      border-bottom: none;
     }
-    .post_date {
-      text-align: right;
-      display: flex;
-      flex: 1;
-      justify-content: flex-end;
-      flex-direction: column;
-      font-size: smaller;
-    }
+  }
+
+  a {
+    font-weight: bold;
+  }
+
+  .post-meta {
+    font-size: 0.875rem;
+    color: var(--pico-muted-color);
   }
 }
