@@ -4,13 +4,9 @@ Personal blog at https://cwynn.com. Built with Jekyll and PicoCSS, deployed via 
 
 ## Dev server
 
-Always use Homebrew's Ruby (not the system Ruby 2.6):
+Use the /serve skill to serve locally to https://localhost:4000
 
-```
-/opt/homebrew/opt/ruby/bin/bundle exec jekyll serve
-```
-
-Runs at http://localhost:4000. The config file (`_config.yml`) is NOT hot-reloaded — restart the server after changing it.
+The config file (`_config.yml`) is NOT hot-reloaded — use the /restart skill after modifying it.
 
 ## Structure
 
