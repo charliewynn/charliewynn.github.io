@@ -37,7 +37,10 @@ I bought a cheap tap and die set for 5mm x 0.8mm ([link](https://www.amazon.com/
 
 I only made two threaded hex shank adapters for this test. Now I can attach any two accessories to the hex shanks.
 
-![Double Hook Attachment with Hex Shaft](../assets/quickswitch/double-hook_with_hex-drive.jpg) | ![Max Disctance Attachment with Hex Shaft](../assets/quickswitch/maxdisctance_with_hex-drive.jpg)
+<div class="gallery" markdown="1">
+![Double Hook Attachment with Hex Shaft](../assets/quickswitch/double-hook_with_hex-drive.jpg)
+![Max Disctance Attachment with Hex Shaft](../assets/quickswitch/maxdisctance_with_hex-drive.jpg)
+</div>
 
 ---
 

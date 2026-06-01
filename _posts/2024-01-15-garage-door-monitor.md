@@ -25,15 +25,18 @@ After playing around for a few hours I had a prototype on breadboards. I had bee
 
 I used a simple push-button momentary switch I had bought in bulk for another project for the drawers. I drilled a hole in a piece of plywood which held the button just above the surface. It was counter-sunk on the back-side to hold the button-housing. I mounted this behind the drawer and cut another piece of plywood the right thickness to just hold the switch closed when the drawer is closed
 
+<div class="gallery" markdown="1">
 ![door sensor](../assets/garagedoormonitor/drawer_sensor.jpg)
 ![door sensor pad](../assets/garagedoormonitor/drawer_sensor_pad.jpg)
+</div>
 
 <hr>
 For the bi-fold door to the laundry room I used the tilt sensor from the Arduino basics kit. A string attached to the door is pulled just enough to swing a piece of plywood which holds the tilt sensor to detect when the door is opened significantly.
 
+<div class="gallery" markdown="1">
 ![bifold open](../assets/garagedoormonitor/bifold_opened.jpg)
-
 ![bifold closed](../assets/garagedoormonitor/bifold_closed.jpg)
+</div>
 
 You can see as it goes between opened and closed the tilt-sensor is activated (take my word for it). The signal wire was effecting the swinging too much so I had to add a lug-nut and some machine nuts to help weigh it down and keep the swing consistent.
 
@@ -63,14 +66,16 @@ A red LED will give me a general "good/bad" before I open the door and crash int
 
 To alert the person on the inside if anything is open I also hot-glued a red-LED behind this empty spot on the kitchen light-switch plate.
 
+<div class="gallery" markdown="1">
 ![outled open led](../assets/garagedoormonitor/led.jpg)
-
 ![outled led](../assets/garagedoormonitor/outlet_led.jpg)
+</div>
 
 <hr>
 
 I have a big sheet of white translucent plastic I took from a broken big-screen TV my neighbor was throwing away. I sloppily dremeled out a case and hot-glued everything together. You can really tell where my energy ran out on this project :)
 
+<div class="gallery" markdown="1">
 ![final red](../assets/garagedoormonitor/final_red.jpg)
-
 ![final all clear](../assets/garagedoormonitor/final_all_clear.jpg)
+</div>

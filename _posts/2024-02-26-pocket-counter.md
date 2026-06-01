@@ -20,11 +20,11 @@ With the microcontroller and LED display sitting on my desk it finally clicked t
 
 To fit the wiring on the PCB I had to do a little planning and cutting the default traces on my breadboard PCB I used.
 
+<div class="gallery" markdown="1">
 ![Buttons and Led on Board](../assets/pocket_counter/buttons_and_led.jpg)
-
 ![Side View of Board](../assets/pocket_counter/buttons_and_led_side.jpg)
-
 ![PCB Planning](../assets/pocket_counter/two_counters.jpg)
+</div>
 
 I didn't think about removing the 2nd ground pin on my first prototype. I tried to pull the pin out without desoldering the entire microcontroller and ended up messing up the pad - so v1 doesn't have the LED which v2 got.
 

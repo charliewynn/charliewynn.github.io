@@ -8,6 +8,8 @@ Use the /serve skill to serve locally to https://localhost:4000
 
 The config file (`_config.yml`) is NOT hot-reloaded — use the /restart skill after modifying it.
 
+Run the "check-post" skill after making changes to the site to ensure a typical post looks okay. When making a batch of changes wait until all changes are done before running "check-post"
+
 ## Structure
 
 - `_posts/` — blog posts (Markdown)

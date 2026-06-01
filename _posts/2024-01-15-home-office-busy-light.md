@@ -22,8 +22,10 @@ The braided cabel goes to a USB-A port for power.
 
 Depending on my office layout I custom-make an ethernet cord for whichever length suits my needs. I run this cable across the room, under the baseboard. Above the door I drilled a hole in the drywall to feed it to the other side.
 
+<div class="gallery" markdown="1">
 ![light wires](../assets/homeofficebusylight/light_wires.jpg)
 ![light back](../assets/homeofficebusylight/light_back.jpg)
+</div>
 
 The translucent white plastic is the back panel of a TV my neighbor was throwing away.
 
@@ -31,5 +33,7 @@ The translucent white plastic is the back panel of a TV my neighbor was throwing
 
 I added status lights to the switch box to help me remember to not leave it on all day :)
 
+<div class="gallery" markdown="1">
 ![status light red](../assets/homeofficebusylight/switch_light_red.jpg)
 ![status light green](../assets/homeofficebusylight/switch_light_green.jpg)
+</div>

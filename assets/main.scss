@@ -3,6 +3,104 @@
 
 @use 'syntax-highlighting';
 
+/* ── Post / article reading ─────────────────────────────────── */
+
+article {
+  /* Comfortable measure for the whole reading column */
+  max-width: 78ch;
+  margin-inline: auto;
+
+  header {
+    margin-bottom: 2rem;
+
+    h1 {
+      margin-bottom: 0.25rem;
+    }
+
+    small {
+      color: var(--pico-muted-color);
+    }
+  }
+
+  p,
+  ul,
+  ol,
+  blockquote {
+    line-height: 1.7;
+  }
+
+  /* A standalone image (optionally wrapped in a link) sits in the normal
+     flow exactly where it appears in the post, so the page always reads
+     top-to-bottom in markdown order. It's centered and width-constrained
+     so it stays integrated with the text rather than full-bleed. */
+  p:has(> img:only-child),
+  p:has(> a:only-child > img:only-child) {
+    text-align: center;
+    margin: 1.5rem auto;
+
+    img {
+      max-width: min(100%, 32rem);
+    }
+  }
+
+  /* The first image acts as the post's hero/banner — a wide, cover-cropped
+     header image that reads as separate from the body, not an inline shot. */
+  > p:first-of-type:has(> img:only-child),
+  > p:first-of-type:has(> a:only-child > img:only-child) {
+    margin: 0 0 2.5rem;
+
+    img {
+      width: 100%;
+      max-width: none;
+      height: clamp(220px, 38vh, 400px);
+      max-height: none;
+      object-fit: cover;
+    }
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    max-height: 60vh;
+    object-fit: contain;
+    margin: 0 auto;
+    border-radius: var(--pico-border-radius);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);
+  }
+
+  /* A run of related images sits in one tidy side-by-side row. */
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    clear: both;
+    margin: 1.5rem 0;
+
+    /* Unwrap the paragraph Kramdown puts around the images so the
+       images themselves become the flex items. */
+    p {
+      display: contents;
+    }
+
+    img {
+      flex: 1 1 0;
+      min-width: 140px;
+      width: auto;
+      height: 220px;
+      max-height: none;
+      object-fit: cover;
+      margin: 0;
+    }
+  }
+
+  /* On narrow screens, shrink the gallery rows a touch */
+  @media (max-width: 600px) {
+    .gallery img {
+      height: 160px;
+    }
+  }
+}
+
 /* ── Post card grid ─────────────────────────────────────────── */
 
 #posts {
