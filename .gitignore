@@ -1,5 +1,9 @@
-_site
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-vendor
+node_modules/
+.next/
+out/
+*.log
+.DS_Store
+push-via-api.py
+drafts/
+public/cube-concepts/
+push-incremental.py
