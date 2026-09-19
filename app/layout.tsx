@@ -17,7 +17,6 @@ const NAV = [
   { href: "/games", label: "Games" },
   { href: "/workshop", label: "Workshop" },
   { href: "/journal", label: "Journal" },
-  { href: "/essays", label: "Essays" },
   { href: "/about", label: "About" },
   // Staging-only editorial tab.
   ...(SHOW_DRAFTS ? [{ href: "/graveyard", label: "Graveyard" }] : []),

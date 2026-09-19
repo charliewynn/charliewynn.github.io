@@ -10,7 +10,6 @@ const SECTIONS = [
   { dir: "projects", label: "Projects" },
   { dir: "games", label: "Games" },
   { dir: "journal", label: "Journal" },
-  { dir: "essays", label: "Essays" },
 ];
 
 // Staging-only: retired posts. Delisted everywhere else; still readable here.
