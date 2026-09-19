@@ -15,7 +15,7 @@ export default function About() {
           <p>
             This site is where I keep the results: little web games built over the
             last fifteen years or so, microcontroller projects from around the
-            house, 3D-printed parts, and the occasional essay. Some I did right,
+            house, and 3D-printed parts. Some I did right,
             some I did quickly, some were just an idea I wanted to play with.
           </p>
           <p>

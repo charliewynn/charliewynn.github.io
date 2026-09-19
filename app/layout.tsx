@@ -9,7 +9,7 @@ const fraunces = Fraunces({ subsets: ["latin"], variable: "--font-display" });
 export const metadata: Metadata = {
   title: "Charlie Wynn — tinkerer",
   description:
-    "Charlie Wynn builds things: microcontroller projects around the house, little web games, 3D-printed fixes, and the occasional essay.",
+    "Charlie Wynn builds things: microcontroller projects around the house, little web games, and 3D-printed fixes.",
 };
 
 const NAV = [

@@ -14,7 +14,7 @@ export default function Home() {
         <h1>Charlie Wynn</h1>
         <p className="lede">
           I build things — microcontroller fixes around the house, little web games,
-          3D-printed problem-solvers, and the occasional essay. Some projects I do
+          3D-printed problem-solvers. Some projects I do
           right, some I do quickly, some are just an idea I wanted to play with.
         </p>
       </section>
