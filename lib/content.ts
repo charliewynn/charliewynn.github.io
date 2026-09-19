@@ -22,6 +22,7 @@ export interface PostMeta {
   playUrl?: string;
   featured?: boolean;
   draft: boolean;
+  archived: boolean;
 }
 
 export interface Post extends PostMeta {
@@ -55,11 +56,34 @@ function readPost(section: string, file: string): Post {
     playUrl: data.playUrl ? String(data.playUrl) : undefined,
     featured: Boolean(data.featured ?? tags.includes("featured")),
     draft: Boolean(data.draft),
+    archived: Boolean(data.archived),
     html,
   };
 }
 
-export function listPosts(section: string): PostMeta[] {
+export function listPosts(
+  section: string,
+  opts?: { includeArchived?: boolean }
+): PostMeta[] {
+  const dir = path.join(CONTENT_DIR, section);
+  if (!fs.existsSync(dir)) return [];
+  const includeArchived = Boolean(opts?.includeArchived) && SHOW_DRAFTS;
+  return fs
+    .readdirSync(dir)
+    .filter((f) => /\.(md|markdown)$/.test(f))
+    .map((f) => {
+      const { html, ...meta } = readPost(section, f);
+      return meta;
+    })
+    .filter((p) => SHOW_DRAFTS || !p.draft)
+    .filter((p) => includeArchived || !p.archived)
+    .sort((a, b) => (a.date < b.date ? 1 : -1));
+}
+
+// Archived ("graveyard") posts. Only ever listed on staging; the graveyard
+// page 404s in prod builds.
+export function listArchived(section: string): PostMeta[] {
+  if (!SHOW_DRAFTS) return [];
   const dir = path.join(CONTENT_DIR, section);
   if (!fs.existsSync(dir)) return [];
   return fs
@@ -69,7 +93,7 @@ export function listPosts(section: string): PostMeta[] {
       const { html, ...meta } = readPost(section, f);
       return meta;
     })
-    .filter((p) => SHOW_DRAFTS || !p.draft)
+    .filter((p) => p.archived)
     .sort((a, b) => (a.date < b.date ? 1 : -1));
 }
 
@@ -79,6 +103,7 @@ export function getPost(section: string, slug: string): Post | null {
   if (!file) return null;
   const post = readPost(section, file);
   if (post.draft && !SHOW_DRAFTS) return null;
+  if (post.archived && !SHOW_DRAFTS) return null;
   return post;
 }
 

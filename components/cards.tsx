@@ -13,6 +13,7 @@ export function Card({ post, href }: { post: PostMeta; href: string }) {
         <div className="card-meta">
           {formatDate(post.date)}
           {post.draft && <span className="badge-draft">Draft</span>}
+          {post.archived && <span className="badge-archived">Archived</span>}
         </div>
         <h3>
           <Link href={href}>{post.title}</Link>

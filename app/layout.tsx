@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Fraunces } from "next/font/google";
 import Link from "next/link";
+import { SHOW_DRAFTS } from "@/lib/content";
 import "./globals.css";
 
 const fraunces = Fraunces({ subsets: ["latin"], variable: "--font-display" });
@@ -18,6 +19,8 @@ const NAV = [
   { href: "/journal", label: "Journal" },
   { href: "/essays", label: "Essays" },
   { href: "/about", label: "About" },
+  // Staging-only editorial tab.
+  ...(SHOW_DRAFTS ? [{ href: "/graveyard", label: "Graveyard" }] : []),
 ];
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

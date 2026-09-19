@@ -34,6 +34,7 @@ export function ArticlePage({
         <div className="byline">
           {formatDate(post.date)}
           {post.draft && <span className="badge-draft">Draft</span>}
+          {post.archived && <span className="badge-archived">Archived</span>}
           {SHOW_DRAFTS && <CopyPostIdButton postId={`${section}/${slug}`} />}
         </div>
         <div className="prose" dangerouslySetInnerHTML={{ __html: post.html }} />

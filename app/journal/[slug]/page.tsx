@@ -2,7 +2,7 @@ import { listPosts } from "@/lib/content";
 import { ArticlePage } from "@/components/article";
 
 export async function generateStaticParams() {
-  return listPosts("journal").map((p) => ({ slug: p.slug }));
+  return listPosts("journal", { includeArchived: true }).map((p) => ({ slug: p.slug }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
