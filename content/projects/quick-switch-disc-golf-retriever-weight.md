@@ -73,4 +73,4 @@ Seeing over 100g does have me slightly worried about the health of my retriever.
 
 The heaviest accessory (mailbox slot) with the heaviest adapter (the long one I use on the suction cup ball in the above images) means the retriever will have 71% more weight on the tip than with just a disc. Putting the accessory an extra 6" further out has some reach advantages - but does make me worry about the force being even higher for the retriever.
 
-On the other hand. When my retriever is at its fullest length I almost never need to fully support the disc's weight. I usually will only need to drag it closer into 10' range where I use the accessory to actually pick up or fling the disc to me.
+On the other hand, when my retriever is at its fullest length I almost never need to fully support the disc's weight. I usually will only need to drag it closer into 10' range where I use the accessory to actually pick up or fling the disc to me.

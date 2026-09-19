@@ -9,7 +9,7 @@ featured: true
 
 ![Counters](/assets/pocket_counter/counters_side_view.jpg)
 
-I made a small little counter/stopwatch with a microcontroller and an 8-segment display. I had some microcontrollers laying around and noticed the number of pins and physical size perfectly allowed an 8-segment display, two buttons, and a status LED. I came up with a little project with a satisfying form factor.
+I made a small counter/stopwatch with a microcontroller and an 8-segment display. I had some microcontrollers laying around and noticed the number of pins and physical size perfectly allowed an 8-segment display, two buttons, and a status LED. I came up with a little project with a satisfying form factor.
 
 <!--more-->
 

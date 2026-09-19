@@ -12,7 +12,7 @@ featured: true
 
 I believe I originally made this game around 2014. It features a character in a maze. You can move in the cardinal directions.
 
-Be sure to try the level editor!
+Try the level editor.
 
 <!--more-->
 

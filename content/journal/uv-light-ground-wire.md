@@ -18,7 +18,7 @@ And the light housing also comes apart.
 
 ![Disassembled](/assets/uv_light/light.png)
 
-I was really impressed that the entire flashlight comes apart easily.
+I was impressed that the entire flashlight comes apart easily.
 
 The issue is the connection between the cathode and the negative battery terminal runs through the flashlight body.
 
@@ -35,4 +35,4 @@ I soldered a longer wire to the negative terminal. ![new wire](/assets/uv_light/
 
 I drilled a hole though the body and was able to run a wire to the negative terminal of the battery pack. This unfortunately leaves some frayed wires (to make a better connection) in the battery pack area you have to bend aside to remove the battery.
 
-I'm really happy with the fix. It solves the problem and the flashlight is still water resistant. All of the changes are 'inside' the o-rings.
+I'm happy with the fix. It solves the problem and the flashlight is still water resistant. All of the changes are 'inside' the o-rings.

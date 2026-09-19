@@ -6,7 +6,7 @@ draft: true
 image: /assets/lazycuber/ivy-cube/solved.jpeg
 ---
 
-I got this on my birthday in Costa Rica. This is fairly easy to solve with intuition but I have a method to solve.
+I got this for my birthday in Costa Rica. It's fairly easy to solve intuitively, but I worked out a method anyway.
 
 # Initial Thoughts
 
@@ -38,7 +38,7 @@ I call this a flower swap (three leaves that form a flower shape)
 
 ![Flower Algorithm](/assets/lazycuber/ivy-cube/mixed-leaves-algo.jpeg)
 
-(This is my first post, hopefully my way of documenting algorithms makes sense. I think this is easier than defining the movement at the beginning then telling you "RrL'FFbL" or whatever)
+(This is my first post; hopefully my way of documenting algorithms makes sense. I think this is easier than defining the movement at the beginning and then telling you `RrL'FFbL` or whatever.)
 
 Twist the corner on which I drew a green overlay "up" (send the orange leaf up). Twist the red overlay "up". Green back down. Then red down.
 

@@ -9,7 +9,7 @@ playUrl: https://charliewynn.github.io/hanabi/
 
 [![Image of Hanabi gameplay. Click to navigate to game.](/assets/hanabi/gameplay.png)](https://charliewynn.github.io/hanabi)
 
-A local only client for playing hanabi.
+A local-only client for playing Hanabi.
 
 <!--more-->
 

@@ -6,7 +6,7 @@ image: /assets/bottlewarmerpower/bottle_soldered.jpg
 featured: true
 ---
 
-We had a baby! Itsagirl.
+We had a baby! It's a girl.
 
 And we're frugal. We got a free portable bottle warmer (a Baby Brew) from a friend's sister who was done having kids.
 

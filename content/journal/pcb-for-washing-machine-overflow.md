@@ -29,4 +29,4 @@ Then I added the header I forgot for power in and power-signal out.
 
 ![Patched PCB](/assets/washingmachinecutoff/pcb/patched.jpg)
 
-I'm not actually sure if I want to even bother replacing my original version which is on a prototype breadboard with many wires taking up a lot of space. That all works so I hate to take it apart. And I don't necessarily need a 2nd sensor set up. But I'm very proud of getting a PCB made. I'm glad to have it as a hello-world project so I'll be ready when I get another microcontroller project.
+I'm not actually sure if I want to even bother replacing my original version which is on a prototype breadboard with many wires taking up a lot of space. That all works so I hate to take it apart. And I don't necessarily need a 2nd sensor set up. But I'm proud of getting a PCB made. I'm glad to have it as a hello-world project so I'll be ready when I get another microcontroller project.

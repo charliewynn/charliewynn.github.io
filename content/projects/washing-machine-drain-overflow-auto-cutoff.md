@@ -57,4 +57,4 @@ A current issue I have is that during a fault I would like to know the current s
 
 [Source Code](https://github.com/charliewynn/washing-machine-drain-cutoff/)
 
-I'm really pleased with working around the single segment display limitation. It's nice that I was able to make it work with limited parts. Doing more of these hardware fixes has me relating them to software. Wiring and ports compared to interfaces. Working with limited UI space to get the required data to the user. It's a perspective change that I think translates well to my day-job.
+I'm pleased with working around the single segment display limitation. It's nice that I was able to make it work with limited parts. Doing more of these hardware fixes has me relating them to software. Wiring and ports compared to interfaces. Working with limited UI space to get the required data to the user. It's a perspective change that I think translates well to my day-job.

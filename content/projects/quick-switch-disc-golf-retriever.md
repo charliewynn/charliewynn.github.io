@@ -8,7 +8,7 @@ featured: true
 
 ![Quick Switch Disc Golf Retriever](/assets/quickswitch/v0_accessories_with_retriever.jpg)
 
-I play disc golf - and sometimes lose discs in the water or up in trees. I've owned a few disc retrievers and recently bought a "Max Disctance" suction cup ball. It works really well in the water, but isn't really designed for everything. The problem is that switching between the hook type retriever and the Max Disctance is a little tedious.
+I play disc golf - and sometimes lose discs in the water or up in trees. I've owned a few disc retrievers and recently bought a "Max Disctance" suction cup ball. It works well in the water, but isn't really designed for everything. The problem is that switching between the hook type retriever and the Max Disctance is a little tedious.
 
 This is how I came up with a quicker way to swap accessories.
 
@@ -18,7 +18,7 @@ The disc golf retriever I own ([link](https://www.amazon.com/gp/product/B08XNZQ8
 
 [![Rogue Iron Disc Golf Retriever](/assets/quickswitch/rogue-iron_retriever.jpg)](https://www.amazon.com/gp/product/B08XNZQ8MX?ie=UTF8&psc=1&linkCode=ll1&tag=charliewynn-20&linkId=b57197751198ea705f1d78511bee22dc&language=en_US&ref_=as_li_ss_tl)
 
-While playing a few weeks ago I noticed someone pulling their disc out of the water with a "Max Disctance" suction cup ball ([link](https://maxdisctance.com/)). I bought one and was instantly impressed.
+While playing a few weeks ago I noticed someone pulling their disc out of the water with a "Max Disctance" suction cup ball ([link](https://maxdisctance.com/)). I bought one and was impressed.
 
 [![Max Disctance Disc Golf Retriever](/assets/quickswitch/maxdisctance_product.jpg)](https://maxdisctance.com/product/maxstick-attachment/)
 

@@ -40,5 +40,5 @@ I like to think of it as:
 5. Bring the bottom corner to "match" it to the initial edge
 6. Move the pair out of the way. It will continue the last top spin direction
 7. Move the "other" side "up"
-8. Bring the pair back to match its "lined up" with its... "friends"
+8. Bring the pair back to line up with its "friends".
 9. Bring everyone back down to where they belong.
