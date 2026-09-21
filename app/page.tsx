@@ -11,7 +11,14 @@ export default function Home() {
     <div className="wrap">
       <section className="hero">
         <span className="kicker">Personal site of</span>
-        <h1>Charlie Wynn</h1>
+        <div className="hero-name">
+          <img
+            src="/assets/ctw-logo/wire-built-version-v2.gif"
+            alt="CTW mark building itself, wire by wire"
+            className="hero-mark"
+          />
+          <h1>Charlie Wynn</h1>
+        </div>
         <p className="lede">
           I build things — microcontroller fixes around the house, little web games,
           3D-printed problem-solvers. Some projects I do
