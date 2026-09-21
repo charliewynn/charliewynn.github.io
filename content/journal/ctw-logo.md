@@ -2,10 +2,10 @@
 title: "The CTW mark"
 date: 2026-09-21 13:00 -0500
 tags: [design, logo]
-image: /assets/ctw-logo/wire-built-version.gif
+image: /assets/ctw-logo/wire-built-version-v2.gif
 ---
 
-![The CTW mark, built](/assets/ctw-logo/wire-built-version.gif)
+![The CTW mark, built](/assets/ctw-logo/wire-built-version-v2.gif)
 
 I've been working on a logo for this site: my initials, C-T-W, as one connected 3D solid. It started from a flat logo I drew myself — and I kept trying to get AI to pull it into a 3D model, with no luck. So instead, AI and I built two tools to fill the gap: one to nail down the exact geometry, one to animate it. The result is the little animation in the navbar up top. It plays once per page and holds on the solid.
 
@@ -45,6 +45,6 @@ Then I wanted a build animation, so I made a second tool: [ctw-animator](https:/
 
 The one I kept: edges draw from the ground up, and the faces start filling in a little past halfway through the wireframe, in the same bottom-up order.
 
-![Wire-built version](/assets/ctw-logo/wire-built-version.gif)
+![Wire-built version](/assets/ctw-logo/wire-built-version-v2.gif)
 
 The wire-built version is what's in the navbar now. Plays once, holds solid.
