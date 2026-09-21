@@ -29,6 +29,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <header className="site-header">
           <div className="wrap">
             <Link href="/" className="brand">
+              <img
+                src="/ctw-mark.gif"
+                alt=""
+                aria-hidden="true"
+                className="brand-mark"
+                width={34}
+                height={34}
+              />
               cwynn
             </Link>
             <nav className="nav" aria-label="Primary">

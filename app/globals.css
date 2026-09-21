@@ -84,6 +84,14 @@ img { max-width: 100%; height: auto; border-radius: 10px; }
   color: var(--ink);
   text-decoration: none;
   letter-spacing: -0.02em;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+.brand-mark {
+  width: 34px;
+  height: 34px;
+  flex: none;
 }
 .brand:hover { color: var(--ink); }
 .nav { display: flex; gap: 4px; flex-wrap: wrap; }
