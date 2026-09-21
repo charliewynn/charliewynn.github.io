@@ -8,23 +8,21 @@ image: /assets/ctw-logo/wire-built-version.gif
 
 ![The CTW mark, built](/assets/ctw-logo/wire-built-version.gif)
 
-I've been working on a logo for this site: my initials, C-T-W, as one connected 3D solid. It started as a pile of concept renders and ended up as a little animation that now sits in the navbar up top. It plays once when the page loads and holds on the solid.
+I've been working on a logo for this site: my initials, C-T-W, as one connected 3D solid. It started from a flat logo I drew myself — and I kept trying to get AI to pull it into a 3D model, with no luck. So instead, AI and I built two tools to fill the gap: one to nail down the exact geometry, one to animate it. The result is the little animation in the navbar up top. It plays once per page and holds on the solid.
 
 <!--more-->
 
-## Starting concepts
+## The original
 
-I began by generating a bunch of variations — different ways to read C, T, and W out of a single cube. A few of the directions:
+<!-- TODO: original logo image goes here as /assets/ctw-logo/original-logo.png -->
 
-![Concept 2](/assets/ctw-logo/concept-2-v2.png)
+This is the 2D mark I started from. I wanted it as a real solid object, not a flat drawing, but every attempt to have AI turn it into 3D came back wrong — proportions off, letters disconnected, geometry that wouldn't hold together. Rather than keep fighting the model, we built tooling around the problem instead.
 
-![Concept 5](/assets/ctw-logo/concept-5-v2.png)
+## Locking down the shape
+
+The solid-clay direction won early: one continuous block, no floating pieces, matte finish.
 
 ![Solid clay study](/assets/ctw-logo/ctw-solid-clay.png)
-
-The solid-clay direction won: one continuous block, no floating pieces, matte finish. From there I stopped generating and started measuring.
-
-## Refining the faces
 
 To get exact control I built a 2D face editor: [w-shape-editor](https://charliewynn.github.io/w-shape-editor/). Each letter is a flat polygon — W on the right face, T on the front, C on top — and the tool unions them into a single watertight solid at a given thickness. Drag the red points, and the 3D preview updates live.
 
@@ -49,9 +47,5 @@ Then I wanted a build animation, so I made a second tool: [ctw-animator](https:/
 The one I kept: edges draw from the ground up, and the faces start filling in a little past halfway through the wireframe, in the same bottom-up order.
 
 ![Wire-built version](/assets/ctw-logo/wire-built-version.gif)
-
-I also tried a 3D-print style layer sweep, which didn't make the cut but was fun to watch:
-
-![Layer build](/assets/ctw-logo/anim-build-layers-v2.gif)
 
 The wire-built version is what's in the navbar now. Plays once, holds solid.

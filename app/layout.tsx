@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Fraunces } from "next/font/google";
 import Link from "next/link";
+import BrandMark from "./brand-mark";
 import { SHOW_DRAFTS } from "@/lib/content";
 import "./globals.css";
 
@@ -29,14 +30,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <header className="site-header">
           <div className="wrap">
             <Link href="/" className="brand">
-              <img
-                src="/ctw-mark.gif"
-                alt=""
-                aria-hidden="true"
-                className="brand-mark"
-                width={34}
-                height={34}
-              />
+              <BrandMark />
               cwynn
             </Link>
             <nav className="nav" aria-label="Primary">
