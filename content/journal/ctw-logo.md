@@ -14,9 +14,9 @@ I've been working on a logo for this site: my initials, C-T-W, as one connected 
 
 ## The original
 
-<!-- TODO: original logo image goes here as /assets/ctw-logo/original-logo.png -->
+![The original logo](/assets/ctw-logo/original-logo.png)
 
-This is the 2D mark I started from. I wanted it as a real solid object, not a flat drawing, but every attempt to have AI turn it into 3D came back wrong — proportions off, letters disconnected, geometry that wouldn't hold together. Rather than keep fighting the model, we built tooling around the problem instead.
+This is the 2D mark I started from: flat lettering for cwynn.com, with a blocky 3D-style T and W. I wanted it as a real solid object, not a flat drawing, but every attempt to have AI turn it into 3D came back wrong — proportions off, letters disconnected, geometry that wouldn't hold together. Rather than keep fighting the model, we built tooling around the problem instead.
 
 ## Locking down the shape
 
@@ -28,7 +28,7 @@ To get exact control I built a 2D face editor: [w-shape-editor](https://charliew
 
 ![W face editor](/assets/ctw-logo/w-shape-editor.png)
 
-I exported the coordinates, ran them through my slicer as a sanity check (it passed with no warnings, so the union is clean), and settled on a thickness of 0.75. The flat-shaded studio render is the current still:
+I exported the coordinates and settled on a thickness of 0.75. The flat-shaded studio render is the current still:
 
 ![Pure studio render](/assets/ctw-logo/ctw-logo-pure-v1-studio.png)
 

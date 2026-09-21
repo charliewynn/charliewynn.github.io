@@ -8,3 +8,4 @@ push-via-api.py
 drafts/
 public/cube-concepts/
 push-incremental.py
+*.tsbuildinfo
