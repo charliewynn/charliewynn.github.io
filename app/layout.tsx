@@ -8,7 +8,7 @@ import "./globals.css";
 const fraunces = Fraunces({ subsets: ["latin"], variable: "--font-display" });
 
 export const metadata: Metadata = {
-  title: "Charlie Wynn — tinkerer",
+  title: "Charlie Wynn",
   description:
     "Charlie Wynn builds things: microcontroller projects around the house, little web games, and 3D-printed fixes.",
 };
