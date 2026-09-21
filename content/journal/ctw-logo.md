@@ -2,7 +2,6 @@
 title: "The CTW mark"
 date: 2026-09-21 13:00 -0500
 tags: [design, logo]
-draft: true
 image: /assets/ctw-logo/wire-built-version.gif
 ---
 
